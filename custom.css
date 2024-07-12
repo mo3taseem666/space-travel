@@ -1,0 +1,23 @@
+.hoverforExp {
+    outline: #9797975d solid 0px;
+    transition: .5s;
+}
+
+.hoverforExp:hover {
+    outline: #9797975d solid 65px;
+    
+}
+
+@media only screen and (min-width: 10px) and (max-width: 930px) {
+	.hoverforExp:hover {
+        outline: #9797975d solid 50px;
+        
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 930px) {
+	.hoverforExp:hover {
+        outline: #9797975d solid 30px;
+        
+    }
+}
